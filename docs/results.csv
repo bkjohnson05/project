@@ -1,0 +1,10 @@
+run_name,top1,top5,loss,config
+baseline_frozen_noaug,0.72,0.93625,1.225129520893097,"{""augmentation"": false, ""weight_decay"": 0.0}"
+frozen_aug,0.6025,0.89375,1.6145818376541137,"{""augmentation"": true, ""weight_decay"": 0.0}"
+frozen_aug_weight_decay,0.63,0.91,1.469979271888733,"{""augmentation"": true, ""weight_decay"": 0.0001}"
+partial_aug_weight_decay,0.705,0.95125,1.006984100341797,"{""augmentation"": true, ""weight_decay"": 0.0001}"
+baseline_partial_noaug,0.77625,0.96625,0.7548476529121398,"{""augmentation"": false, ""weight_decay"": 0.0}"
+partial_aug,0.69875,0.94,1.0105676460266113,"{""augmentation"": true, ""weight_decay"": 0.0}"
+baseline_full_noaug,0.845,0.98625,0.5302806311845779,"{""augmentation"": false, ""weight_decay"": 0.0}"
+full_aug,0.82375,0.98125,0.5971140480041504,"{""augmentation"": true, ""weight_decay"": 0.0}"
+full_aug_weight_decay,0.80875,0.98375,0.5800104427337647,"{""augmentation"": true, ""weight_decay"": 0.0001}"
